@@ -1,9 +1,8 @@
-# WebTorrent Hybrid Client (Node.js)
+# WebTorrent Hybrid Client (with Chromium based WebRTC implementation for Node.js)
 
 [![Build Status][webtorrent-ti]][webtorrent-tu]
 [![NPM Version][webtorrent-ni]][webtorrent-nu]
 [![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
-
 
 ### Streaming torrent client for node & the browser
 
@@ -18,13 +17,13 @@ The `wrtc` dependency (which provides WebRTC support in node.js) can be a bit di
 To install WebTorrent:
 
 ```bash
-npm install webtorrent-hybrid
+npm install webtorrent-hybrid-electron
 ```
 
 To install a `webtorrent-hybrid` command line program, run:
 
 ```bash
-npm install webtorrent-hybrid -g
+npm install webtorrent-hybrid-electron -g
 ```
 
 ## Usage
@@ -39,14 +38,14 @@ See the [WebTorrent docs](https://github.com/feross/webtorrent).
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
-[webtorrent]: https://github.com/feross/webtorrent-hybrid
+[webtorrent]: https://github.com/h2non/webtorrent-hybrid-electron
 [webtorrent-ti]: https://img.shields.io/travis/feross/webtorrent-hybrid.svg?style=flat
 [webtorrent-tu]: https://travis-ci.org/feross/webtorrent-hybrid
-[webtorrent-ni]: https://img.shields.io/npm/v/webtorrent-hybrid.svg?style=flat
-[webtorrent-nu]: https://npmjs.org/package/webtorrent-hybrid
+[webtorrent-ni]: https://img.shields.io/npm/v/webtorrent-hybrid-electron.svg?style=flat
+[webtorrent-nu]: https://npmjs.org/package/webtorrent-hybrid-electron
 [webtorrent-downloads-image]: https://img.shields.io/npm/dm/webtorrent-hybrid.svg?style=flat
-[webtorrent-downloads-url]: https://npmjs.org/package/webtorrent-hybrid
+[webtorrent-downloads-url]: https://npmjs.org/package/webtorrent-hybrid-electron
 [webtorrent-gratipay-image]: https://img.shields.io/gratipay/feross.svg?style=flat
-[webtorrent-gratipay-url]: https://gratipay.com/feross/
+[webtorrent-gratipay-url]: https://gratipay.com/h2non/
 [webtorrent-sauce-image]: https://saucelabs.com/browser-matrix/webtorrent-hybrid.svg
 [webtorrent-sauce-url]: https://saucelabs.com/u/webtorrent-hybrid
