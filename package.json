@@ -1,7 +1,7 @@
 {
-  "name": "webtorrent-hybrid",
-  "description": "Streaming torrent client",
-  "version": "0.39.0",
+  "name": "webtorrent-hybrid-electron",
+  "description": "Streaming torrent client with reliable WebRTC support for node.js",
+  "version": "0.1.0",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -11,11 +11,11 @@
     "webtorrent-hybrid": "./bin/cmd.js"
   },
   "bugs": {
-    "url": "https://github.com/feross/webtorrent-hybrid/issues"
+    "url": "https://github.com/h2non/webtorrent-hybrid-electron/issues"
   },
   "dependencies": {
-    "webtorrent": "0.x",
-    "wrtc": "0.0.58"
+    "electron-webrtc": "0.0.1",
+    "webtorrent": "0.x"
   },
   "devDependencies": {
     "standard": "^5.0.2"
@@ -36,7 +36,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/webtorrent-hybrid.git"
+    "url": "git://github.com/h2non/webtorrent-hybrid-electron.git"
   },
   "scripts": {
     "test": "standard"
