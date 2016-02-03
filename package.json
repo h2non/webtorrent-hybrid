@@ -5,7 +5,7 @@
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "url": "http://feross.org/" 
   },
   "bin": {
     "webtorrent-hybrid": "./bin/cmd.js"
